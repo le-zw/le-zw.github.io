@@ -407,15 +407,6 @@
                 </div>
                 <div class="col s5 right-align">
                     
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                随笔
-                            </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
 
@@ -430,21 +421,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-19
+                    2021-08-20
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.9k
+                    2.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    13 分
                 </div>
                 
 
@@ -467,7 +458,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="JOLT简介"><a href="#JOLT简介" class="headerlink" title="JOLT简介"></a>JOLT简介</h2><h3 id="1-Jolt-Spec规范"><a href="#1-Jolt-Spec规范" class="headerlink" title="1. Jolt Spec规范"></a>1. Jolt Spec规范</h3><h3 id="2-Spec匹配语法-LHS-图中红框部分"><a href="#2-Spec匹配语法-LHS-图中红框部分" class="headerlink" title="2. Spec匹配语法-LHS(图中红框部分)"></a>2. Spec匹配语法-LHS(图中红框部分)</h3><h4 id="2-1-语法：「-key-」"><a href="#2-1-语法：「-key-」" class="headerlink" title="2.1 语法：「 key 」"></a>2.1 语法：「 key 」</h4><blockquote>
+                <h2 id="JOLT简介"><a href="#JOLT简介" class="headerlink" title="JOLT简介"></a>JOLT简介</h2><h3 id="一、-Spec匹配语法-LHS"><a href="#一、-Spec匹配语法-LHS" class="headerlink" title="一、 Spec匹配语法-LHS"></a>一、 Spec匹配语法-LHS</h3><h4 id="1-语法：「-key-」"><a href="#1-语法：「-key-」" class="headerlink" title="1. 语法：「 key 」"></a>1. 语法：「 key 」</h4><blockquote>
 <ul>
 <li>LHS</li>
 </ul>
@@ -477,7 +468,7 @@
 <li>直接用原 json 中 key 名称一一对应匹配，图中 pointName, time 等字段</li>
 </ul>
 </blockquote>
-<h4 id="2-2-语法：「-key-」"><a href="#2-2-语法：「-key-」" class="headerlink" title="2.2 语法：「 key? 」"></a>2.2 语法：「 key? 」</h4><blockquote>
+<h4 id="2-语法：「-key-」"><a href="#2-语法：「-key-」" class="headerlink" title="2. 语法：「 key? 」"></a>2. 语法：「 key? 」</h4><blockquote>
 <ul>
 <li>LHS</li>
 </ul>
@@ -532,7 +523,7 @@
   <span class="token punctuation">&#125;</span>
 <span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="2-3-语法：「-」"><a href="#2-3-语法：「-」" class="headerlink" title="2.3 语法：「 * 」"></a>2.3 语法：「 * 」</h4><blockquote>
+<h4 id="3-语法：「-」"><a href="#3-语法：「-」" class="headerlink" title="3. 语法：「 * 」"></a>3. 语法：「 * 」</h4><blockquote>
 <ul>
 <li>LHS</li>
 </ul>
@@ -547,7 +538,7 @@
 <li>也可以用于匹配key字符串的一部分，比如匹配 ’p-‘ 开头的 key 可以用 ‘p-*’。( * 的位置可以任意放)</li>
 </ul>
 </blockquote>
-<h4 id="2-4-语法：「-」"><a href="#2-4-语法：「-」" class="headerlink" title="2.4 语法：「 $ 」"></a>2.4 语法：「 $ 」</h4><blockquote>
+<h4 id="4-语法：「-」"><a href="#4-语法：「-」" class="headerlink" title="4. 语法：「 $ 」"></a>4. 语法：「 $ 」</h4><blockquote>
 <ul>
 <li>LHS</li>
 </ul>
@@ -620,7 +611,7 @@
   <span class="token property">"ratings"</span> <span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token string">"primary"</span><span class="token punctuation">,</span> <span class="token string">"quality"</span> <span class="token punctuation">]</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="2-5-语法：「-｜-」"><a href="#2-5-语法：「-｜-」" class="headerlink" title="2.5 语法：「 ｜ 」"></a>2.5 语法：「 ｜ 」</h4><blockquote>
+<h4 id="5-语法：「-｜-」"><a href="#5-语法：「-｜-」" class="headerlink" title="5. 语法：「 ｜ 」"></a>5. 语法：「 ｜ 」</h4><blockquote>
 <ul>
 <li>LHS</li>
 </ul>
@@ -672,7 +663,7 @@
   <span class="token punctuation">&#125;</span> <span class="token punctuation">]</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="2-6-语法：「-」"><a href="#2-6-语法：「-」" class="headerlink" title="2.6 语法：「 @ 」"></a>2.6 语法：「 @ 」</h4><blockquote>
+<h4 id="6-语法：「-」"><a href="#6-语法：「-」" class="headerlink" title="6. 语法：「 @ 」"></a>6. 语法：「 @ 」</h4><blockquote>
 <ul>
 <li>LHS和RHS</li>
 </ul>
@@ -730,12 +721,12 @@
 
 
 
-<h3 id="3-Spec映射语法-RHS-图中蓝框部分"><a href="#3-Spec映射语法-RHS-图中蓝框部分" class="headerlink" title="3.Spec映射语法-RHS(图中蓝框部分)"></a>3.Spec映射语法-RHS(图中蓝框部分)</h3><h4 id="3-1-语法：「-」"><a href="#3-1-语法：「-」" class="headerlink" title="3.1 语法：「 . 」"></a>3.1 语法：「 . 」</h4><blockquote>
+<h3 id="二、Spec映射语法-RHS-图中蓝框部分"><a href="#二、Spec映射语法-RHS-图中蓝框部分" class="headerlink" title="二、Spec映射语法-RHS(图中蓝框部分)"></a>二、Spec映射语法-RHS(图中蓝框部分)</h3><h4 id="1-语法：「-」"><a href="#1-语法：「-」" class="headerlink" title="1. 语法：「 . 」"></a>1. 语法：「 . 」</h4><blockquote>
 <ul>
 <li>RHS默认使用扁平化的「.」结构来映射到新json结构</li>
 </ul>
 </blockquote>
-<h4 id="3-2-语法：「-amp-」"><a href="#3-2-语法：「-amp-」" class="headerlink" title="3.2 语法：「 &amp; 」"></a>3.2 语法：「 &amp; 」</h4><blockquote>
+<h4 id="2-语法：「-amp-」"><a href="#2-语法：「-amp-」" class="headerlink" title="2. 语法：「 &amp; 」"></a>2. 语法：「 &amp; 」</h4><blockquote>
 <ul>
 <li>&amp;表示取当前层的key作为映射后的key，&amp; = &amp;0 = &amp;(0) = &amp;(0,0)</li>
 <li>&amp;1 表示取上一层key作为映射后的key</li>
@@ -786,12 +777,12 @@
 	<span class="token property">"Con"</span><span class="token operator">:</span> <span class="token string">"Bogus"</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="3-3-语法：「-」"><a href="#3-3-语法：「-」" class="headerlink" title="3.3 语法：「 @ 」"></a>3.3 语法：「 @ 」</h4><blockquote>
+<h4 id="3-语法：「-」-1"><a href="#3-语法：「-」-1" class="headerlink" title="3. 语法：「 @ 」"></a>3. 语法：「 @ 」</h4><blockquote>
 <ul>
 <li>在RHS的作用和LHS一致，具体可参考 <strong>语法 2.6</strong></li>
 </ul>
 </blockquote>
-<h4 id="3-4-语法：「-」"><a href="#3-4-语法：「-」" class="headerlink" title="3.4 语法：「 # 」"></a>3.4 语法：「 # 」</h4><blockquote>
+<h4 id="4-语法：「-」-1"><a href="#4-语法：「-」-1" class="headerlink" title="4. 语法：「 # 」"></a>4. 语法：「 # 」</h4><blockquote>
 <ul>
 <li>只在数组中有效 </li>
 <li>比如“[#2]”，“[#2”]的意思是，向上两层并询问该节点有多少匹配，然后将其用作数组中的索引</li>
@@ -828,7 +819,9 @@
 	<span class="token punctuation">&#125;</span><span class="token punctuation">]</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="4-Spec操作类型"><a href="#4-Spec操作类型" class="headerlink" title="4.Spec操作类型"></a>4.Spec操作类型</h3><blockquote>
+
+
+<h3 id="三、Spec操作类型"><a href="#三、Spec操作类型" class="headerlink" title="三、Spec操作类型"></a>三、Spec操作类型</h3><blockquote>
 <ul>
 <li>Shift ：复制输入json到输出json</li>
 <li>Default ：为json树增加默认值</li>
@@ -841,7 +834,7 @@
 <li>custom：实现Transform或ContextualTransform接口,可选择SpecDriven接口</li>
 </ul>
 </blockquote>
-<h4 id="4-1-shift"><a href="#4-1-shift" class="headerlink" title="4.1 shift"></a>4.1 shift</h4><blockquote>
+<h4 id="1-shift"><a href="#1-shift" class="headerlink" title="1. shift"></a>1. shift</h4><blockquote>
 <ul>
 <li><p>指定来自输入JSON的数据应该放在输出JSON中的什么位置，也就是输入JSON的数据应该如何进行移位</p>
 </li>
@@ -849,7 +842,7 @@
 </li>
 </ul>
 </blockquote>
-<h4 id="4-2-default"><a href="#4-2-default" class="headerlink" title="4.2 default"></a>4.2 default</h4><blockquote>
+<h4 id="2-default"><a href="#2-default" class="headerlink" title="2. default"></a>2. default</h4><blockquote>
 <ul>
 <li>不破环原json结构，追加默认值</li>
 <li>如果对应的字段已存在，不会修改原值，如果不存在，追加spec设置的值</li>
@@ -875,39 +868,39 @@
 	<span class="token property">"boo"</span><span class="token operator">:</span> <span class="token string">"value"</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="4-3-remove"><a href="#4-3-remove" class="headerlink" title="4.3 remove"></a>4.3 remove</h4><blockquote>
+<h4 id="3-remove"><a href="#3-remove" class="headerlink" title="3. remove"></a>3. remove</h4><blockquote>
 <ul>
 <li>删除原json中指定的key</li>
 </ul>
 </blockquote>
-<h4 id="4-4-cardinality"><a href="#4-4-cardinality" class="headerlink" title="4.4 cardinality"></a>4.4 cardinality</h4><blockquote>
+<h4 id="4-cardinality"><a href="#4-cardinality" class="headerlink" title="4. cardinality"></a>4. cardinality</h4><blockquote>
 <ul>
 <li>改变输入JSON数据元素的基数(对象和数组)</li>
 <li>将对象改为数组或这将数组转换为对象</li>
 </ul>
 </blockquote>
-<h4 id="4-5-sort"><a href="#4-5-sort" class="headerlink" title="4.5 sort"></a>4.5 sort</h4><blockquote>
+<h4 id="5-sort"><a href="#5-sort" class="headerlink" title="5. sort"></a>5. sort</h4><blockquote>
 <ul>
 <li>递归地将JSON对象内的所有映射排序为新的已排序的LinkedHashMaps</li>
 <li>按原json的key排序</li>
 </ul>
 </blockquote>
-<h4 id="4-6-modify"><a href="#4-6-modify" class="headerlink" title="4.6 modify"></a>4.6 modify</h4><h5 id="4-6-1-modify-overwrite-beta"><a href="#4-6-1-modify-overwrite-beta" class="headerlink" title="4.6.1 modify-overwrite-beta"></a>4.6.1 modify-overwrite-beta</h5><blockquote>
+<h4 id="6-modify"><a href="#6-modify" class="headerlink" title="6. modify"></a>6. modify</h4><h5 id="6-1-modify-overwrite-beta"><a href="#6-1-modify-overwrite-beta" class="headerlink" title="6.1 modify-overwrite-beta"></a>6.1 modify-overwrite-beta</h5><blockquote>
 <ul>
 <li>总是写</li>
 </ul>
 </blockquote>
-<h5 id="4-6-2-modify-default-beta"><a href="#4-6-2-modify-default-beta" class="headerlink" title="4.6.2 modify-default-beta"></a>4.6.2 modify-default-beta</h5><blockquote>
+<h5 id="6-2-modify-default-beta"><a href="#6-2-modify-default-beta" class="headerlink" title="6.2 modify-default-beta"></a>6.2 modify-default-beta</h5><blockquote>
 <ul>
 <li>当key对应的value是null时写</li>
 </ul>
 </blockquote>
-<h5 id="4-6-3-modify-define-beta"><a href="#4-6-3-modify-define-beta" class="headerlink" title="4.6.3 modify-define-beta"></a>4.6.3 modify-define-beta</h5><blockquote>
+<h5 id="6-3-modify-define-beta"><a href="#6-3-modify-define-beta" class="headerlink" title="6.3 modify-define-beta"></a>6.3 modify-define-beta</h5><blockquote>
 <ul>
 <li>当key不存在时写入</li>
 </ul>
 </blockquote>
-<h4 id="4-7-custom"><a href="#4-7-custom" class="headerlink" title="4.7 custom"></a>4.7 custom</h4><blockquote>
+<h4 id="7-custom"><a href="#7-custom" class="headerlink" title="7. custom"></a>7. custom</h4><blockquote>
 <ul>
 <li><p>完全限定的Java ClassName:类实现Transform 或ContextualTransform接口，并且可以选择是SpecDriven 的(标记接口)</p>
 </li>
@@ -917,12 +910,12 @@
 </li>
 </ul>
 </blockquote>
-<h4 id="4-8-chain"><a href="#4-8-chain" class="headerlink" title="4.8 chain"></a>4.8 chain</h4><blockquote>
+<h4 id="8-chain"><a href="#8-chain" class="headerlink" title="8. chain"></a>8. chain</h4><blockquote>
 <ul>
 <li>Chain是一种机制，可以把多个转换Spec连接在一起</li>
 </ul>
 </blockquote>
-<h3 id="5-通用的Spec"><a href="#5-通用的Spec" class="headerlink" title="5.通用的Spec"></a>5.通用的Spec</h3><h4 id="5-1-给JSON-Key加前缀"><a href="#5-1-给JSON-Key加前缀" class="headerlink" title="5.1 给JSON Key加前缀"></a>5.1 给JSON Key加前缀</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//输入为JSON Object</span>
+<h3 id="四、通用的Spec示例"><a href="#四、通用的Spec示例" class="headerlink" title="四、通用的Spec示例"></a>四、通用的Spec示例</h3><h4 id="1-给JSON-Key加前缀"><a href="#1-给JSON-Key加前缀" class="headerlink" title="1. 给JSON Key加前缀"></a>1. 给JSON Key加前缀</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//输入为JSON Object</span>
 <span class="token punctuation">&#123;</span>
     <span class="token string">"operation"</span><span class="token operator">:</span> <span class="token string">"shift"</span><span class="token punctuation">,</span>
     <span class="token string">"spec"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
@@ -932,7 +925,7 @@
 	<span class="token punctuation">&#125;</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="5-2-数组映射为另外一个数组"><a href="#5-2-数组映射为另外一个数组" class="headerlink" title="5.2 数组映射为另外一个数组"></a>5.2 数组映射为另外一个数组</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//输入为JSON数组</span>
+<h4 id="2-数组映射为另外一个数组"><a href="#2-数组映射为另外一个数组" class="headerlink" title="2. 数组映射为另外一个数组"></a>2. 数组映射为另外一个数组</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//输入为JSON数组</span>
 <span class="token punctuation">[</span>
     <span class="token punctuation">&#123;</span>
         <span class="token property">"operation"</span><span class="token operator">:</span><span class="token string">"shift"</span><span class="token punctuation">,</span>
@@ -975,7 +968,7 @@
     <span class="token punctuation">&#125;</span>
 <span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="5-3-替换JSON中指定key的值"><a href="#5-3-替换JSON中指定key的值" class="headerlink" title="5.3 替换JSON中指定key的值"></a>5.3 替换JSON中指定key的值</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json">方法<span class="token number">1</span><span class="token operator">:</span> JOLT转换DSL选择：Modify-Overwrite
+<h4 id="3-替换JSON中指定key的值"><a href="#3-替换JSON中指定key的值" class="headerlink" title="3. 替换JSON中指定key的值"></a>3. 替换JSON中指定key的值</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json">方法<span class="token number">1</span><span class="token operator">:</span> JOLT转换DSL选择：Modify-Overwrite
 <span class="token punctuation">&#123;</span>
    <span class="token property">"customer"</span><span class="token operator">:</span><span class="token string">"替换后的值"</span>
 <span class="token punctuation">&#125;</span>
@@ -987,7 +980,10 @@
 	<span class="token punctuation">&#125;</span>
 <span class="token punctuation">&#125;</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="5-5-过滤JSON数组中某个字段匹配指定值的部分-QueryRecord"><a href="#5-5-过滤JSON数组中某个字段匹配指定值的部分-QueryRecord" class="headerlink" title="5.5 过滤JSON数组中某个字段匹配指定值的部分(QueryRecord)"></a>5.5 过滤JSON数组中某个字段匹配指定值的部分(QueryRecord)</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token number">1.</span>使用移位操作，先指定流文件属性值searchKey和searchContainsValue，searchKey为准备过滤的字段，searchContainsValue为过滤的值
+<h4 id="4-过滤JSON数组中某个字段匹配指定值的部分-类似NiFi-QueryRecord组件"><a href="#4-过滤JSON数组中某个字段匹配指定值的部分-类似NiFi-QueryRecord组件" class="headerlink" title="4. 过滤JSON数组中某个字段匹配指定值的部分(类似NiFi QueryRecord组件)"></a>4. 过滤JSON数组中某个字段匹配指定值的部分(类似NiFi QueryRecord组件)</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 设置两个流文件属性：</span>
+<span class="token comment">// searchContainsValue:停用</span>
+<span class="token comment">// searchKey:LTEXT</span>
+<span class="token number">1.</span>使用移位操作，先指定流文件属性值searchKey和searchContainsValue，searchKey为准备过滤的字段，searchContainsValue为过滤的值
 <span class="token punctuation">&#123;</span>
 	<span class="token string">"*"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
 		<span class="token string">"$&#123;searchKey&#125;"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
@@ -1017,12 +1013,9 @@ eg<span class="token operator">:</span> json
 <span class="token punctuation">,</span>
 
 <span class="token punctuation">&#123;</span> <span class="token string">"KOSTL"</span><span class="token operator">:</span> <span class="token string">"0100105010"</span><span class="token punctuation">,</span> <span class="token string">"LTEXT"</span><span class="token operator">:</span> <span class="token string">"投资与金融产业部"</span><span class="token punctuation">,</span> <span class="token string">"BUKRS"</span><span class="token operator">:</span> <span class="token string">"0100"</span><span class="token punctuation">,</span> <span class="token string">"PRCTR"</span><span class="token operator">:</span> <span class="token string">"0100999999"</span><span class="token punctuation">,</span> <span class="token string">"FUNC_AREA"</span><span class="token operator">:</span> <span class="token string">"Y000"</span> <span class="token punctuation">&#125;</span>
-<span class="token punctuation">]</span>
-流文件属性：
-  searchContainsValue<span class="token operator">:</span>停用
-  searchKey<span class="token operator">:</span>LTEXT<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="5-6-JSON原样输出-数组及对象"><a href="#5-6-JSON原样输出-数组及对象" class="headerlink" title="5.6 JSON原样输出(数组及对象)"></a>5.6 JSON原样输出(数组及对象)</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//JSONObject</span>
+<h4 id="6-JSON原样输出-数组及对象"><a href="#6-JSON原样输出-数组及对象" class="headerlink" title="6. JSON原样输出(数组及对象)"></a>6. JSON原样输出(数组及对象)</h4><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//JSONObject</span>
 <span class="token punctuation">&#123;</span>
 	<span class="token property">"*"</span><span class="token operator">:</span><span class="token punctuation">&#123;</span>
 		<span class="token property">"@"</span><span class="token operator">:</span><span class="token string">"&amp;0"</span>
@@ -1034,6 +1027,304 @@ eg<span class="token operator">:</span> json
     <span class="token property">"@"</span><span class="token operator">:</span> <span class="token string">"[&amp;1]"</span>
   <span class="token punctuation">&#125;</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="7-复杂数组转简单数组示列"><a href="#7-复杂数组转简单数组示列" class="headerlink" title="7. 复杂数组转简单数组示列"></a>7. 复杂数组转简单数组示列</h4><blockquote>
+<p>原始JSON</p>
+</blockquote>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">&#123;</span>
+    <span class="token property">"ESB"</span><span class="token operator">:</span><span class="token punctuation">&#123;</span>
+        <span class="token property">"DATA"</span><span class="token operator">:</span><span class="token punctuation">&#123;</span>
+            <span class="token property">"DATAINFOS"</span><span class="token operator">:</span><span class="token punctuation">&#123;</span>
+                <span class="token property">"DATAINFO"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+                    <span class="token punctuation">&#123;</span>
+                        <span class="token property">"CODE"</span><span class="token operator">:</span><span class="token string">"主编码的值"</span><span class="token punctuation">,</span>
+                        <span class="token property">"CODEVALUE"</span><span class="token operator">:</span><span class="token punctuation">&#123;</span>
+                            <span class="token property">"SPECIALITY"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+                                <span class="token punctuation">&#123;</span>
+                                    <span class="token property">"PROPERTY"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PS_ORG_PK"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"PS人力组织编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"人力组织编码的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PS_NC_ORG_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"NC人力组织编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"NC人力组织编码的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PS_ORG_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"人力组织名称"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"人力组织名称的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_SHORTNAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织简称"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"组织简称的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PS_ORG_PARENT_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所属PS上级组织编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"上级编码"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PS_ORG_PARENT_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所属上级组织名称"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"所属上级组织名称的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"BUSINESS_UNITS_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"业务单元编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"单元编码"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"BUSINESS_UNITS_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"业务单元名称"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"业务单元名称的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"BUSINESS_TYPE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"业务类型"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"1"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_TYPE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织类型"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"类"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_RANK"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织层级"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"组"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"LAST_UPDATE_USER"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"更新人"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"更新人的值"</span>
+                                        <span class="token punctuation">&#125;</span>
+                                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                    <span class="token property">"SPECIALITYCODE"</span><span class="token operator">:</span><span class="token string">"JBXX"</span>
+                                <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                <span class="token punctuation">&#123;</span>
+                                    <span class="token property">"PROPERTY"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_ESTABLISH_DATE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织成立时间"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"2000-01-01 10:00:00"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_REVOCATION_DATE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织撤销日期"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"2020-01-01 10:00:00"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_STATUS"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织状态"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"1"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"LEADER_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"分管领导工号"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"领导工号"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"LEADER_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"分管领导"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"分管领导的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"HRBP_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"HRBP人员工号"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"HR工号"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"HRBP_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"HRBP人员姓名"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"HRBP人员姓名的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_HEAD_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织负责人工号"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"人工号"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"ORG_HEAD_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"组织负责人姓名"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"组织负责人姓名的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"TIME_KEEPER_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"考勤员工号"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"考勤员"</span>
+                                        <span class="token punctuation">&#125;</span>
+                                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                    <span class="token property">"SPECIALITYCODE"</span><span class="token operator">:</span><span class="token string">"GLXX"</span>
+                                <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                <span class="token punctuation">&#123;</span>
+                                    <span class="token property">"PROPERTY"</span><span class="token operator">:</span><span class="token punctuation">[</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"COUNTRY_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在国家"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"所在国家的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"COUNTRY_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在国家编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"国家编码"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PROVINCE_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在省"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"所在省的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"PROVINCE_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在省编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"省编码"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"CITY_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在市"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"所在市的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"CITY_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在市编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"市编码"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"COUNTY_NAME"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在区县"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"所在区县的值"</span>
+                                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                                        <span class="token punctuation">&#123;</span>
+                                            <span class="token property">"PROPERTYCODE"</span><span class="token operator">:</span><span class="token string">"COUNTY_CODE"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYNAME"</span><span class="token operator">:</span><span class="token string">"所在区县编码"</span><span class="token punctuation">,</span>
+                                            <span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span><span class="token string">"区县编码"</span>
+                                        <span class="token punctuation">&#125;</span>
+                                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                    <span class="token property">"SPECIALITYCODE"</span><span class="token operator">:</span><span class="token string">"DZXX"</span>
+                                <span class="token punctuation">&#125;</span>
+                            <span class="token punctuation">]</span>
+                        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+                        <span class="token property">"UUID"</span><span class="token operator">:</span><span class="token string">"45b547c9-1e7f-4fe5-b4fc-f2b47e9fa2b9"</span>
+                    <span class="token punctuation">&#125;</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token property">"PUUID"</span><span class="token operator">:</span><span class="token string">"批数据的UUID"</span>
+            <span class="token punctuation">&#125;</span>
+        <span class="token punctuation">&#125;</span>
+    <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>Jolt Spec（结合了NiFi表达式）</p>
+</blockquote>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">[</span><span class="token punctuation">&#123;</span>
+	<span class="token property">"operation"</span><span class="token operator">:</span> <span class="token string">"shift"</span><span class="token punctuation">,</span>
+	<span class="token property">"spec"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+		<span class="token property">"ESB"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+			<span class="token property">"DATA"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+				<span class="token property">"DATAINFOS"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+					<span class="token property">"DATAINFO"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+						<span class="token property">"*"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+							<span class="token property">"@(2,PUUID)"</span><span class="token operator">:</span><span class="token string">"[&amp;1].PUUID"</span><span class="token punctuation">,</span>
+							<span class="token property">"CODEVALUE"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+								<span class="token property">"SPECIALITY"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+									<span class="token property">"*"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+										<span class="token property">"PROPERTY"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+											<span class="token property">"*"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+												<span class="token property">"PROPERTYVALUE"</span><span class="token operator">:</span> <span class="token string">"[&amp;6].@(1,PROPERTYCODE)"</span>
+											<span class="token punctuation">&#125;</span>
+										<span class="token punctuation">&#125;</span>
+									<span class="token punctuation">&#125;</span>
+								<span class="token punctuation">&#125;</span>
+							<span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+							<span class="token property">"MULTICODE"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+								<span class="token property">"VALUELIST"</span><span class="token operator">:</span> <span class="token string">"[&amp;2].GWXX"</span>
+							<span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+							<span class="token property">"UUID"</span><span class="token operator">:</span> <span class="token string">"[&amp;1].tUUID"</span><span class="token punctuation">,</span>
+							<span class="token property">"#$&#123;now():format('yyyy-MM-dd HH:mm:ss')&#125;"</span><span class="token operator">:</span> <span class="token string">"[&amp;1].LASTMODIFYRECORDTIME"</span>
+						<span class="token punctuation">&#125;</span>
+					<span class="token punctuation">&#125;</span>
+				<span class="token punctuation">&#125;</span>
+			<span class="token punctuation">&#125;</span>
+		<span class="token punctuation">&#125;</span>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>转换结果</p>
+</blockquote>
+<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">[</span><span class="token punctuation">&#123;</span>
+	<span class="token property">"PUUID"</span><span class="token operator">:</span> <span class="token string">"批数据的UUID"</span><span class="token punctuation">,</span>
+	<span class="token property">"LASTMODIFYRECORDTIME"</span><span class="token operator">:</span> <span class="token string">"2021-08-20 15:34:37"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PK"</span><span class="token operator">:</span> <span class="token string">"l:99199"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_NC_ORG_CODE"</span><span class="token operator">:</span> <span class="token string">"NC人力组织编码的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_NAME"</span><span class="token operator">:</span> <span class="token string">"人力组织名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_SHORTNAME"</span><span class="token operator">:</span> <span class="token string">"组织简称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PARENT_CODE"</span><span class="token operator">:</span> <span class="token string">"上级编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PARENT_NAME"</span><span class="token operator">:</span> <span class="token string">"所属上级组织名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_UNITS_CODE"</span><span class="token operator">:</span> <span class="token string">"单元编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_UNITS_NAME"</span><span class="token operator">:</span> <span class="token string">"业务单元名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_TYPE"</span><span class="token operator">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_TYPE"</span><span class="token operator">:</span> <span class="token string">"类"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_RANK"</span><span class="token operator">:</span> <span class="token string">"组"</span><span class="token punctuation">,</span>
+	<span class="token property">"LAST_UPDATE_USER"</span><span class="token operator">:</span> <span class="token string">"更新人的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_ESTABLISH_DATE"</span><span class="token operator">:</span> <span class="token string">"2000-01-01 10:00:00"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_REVOCATION_DATE"</span><span class="token operator">:</span> <span class="token string">"2020-01-01 10:00:00"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_STATUS"</span><span class="token operator">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+	<span class="token property">"LEADER_CODE"</span><span class="token operator">:</span> <span class="token string">"领导工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"LEADER_NAME"</span><span class="token operator">:</span> <span class="token string">"分管领导的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"HRBP_CODE"</span><span class="token operator">:</span> <span class="token string">"HR工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"HRBP_NAME"</span><span class="token operator">:</span> <span class="token string">"HRBP人员姓名的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_HEAD_CODE"</span><span class="token operator">:</span> <span class="token string">"人工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_HEAD_NAME"</span><span class="token operator">:</span> <span class="token string">"组织负责人姓名的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"TIME_KEEPER_CODE"</span><span class="token operator">:</span> <span class="token string">"考勤员"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTRY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在国家的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTRY_CODE"</span><span class="token operator">:</span> <span class="token string">"国家编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"PROVINCE_NAME"</span><span class="token operator">:</span> <span class="token string">"所在省的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PROVINCE_CODE"</span><span class="token operator">:</span> <span class="token string">"省编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"CITY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在市的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"CITY_CODE"</span><span class="token operator">:</span> <span class="token string">"市编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在区县的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTY_CODE"</span><span class="token operator">:</span> <span class="token string">"区县编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"tUUID"</span><span class="token operator">:</span> <span class="token string">"45b547c9-1e7f-4fe5-b4fc-f2b47e9fa2b9"</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">,</span> <span class="token punctuation">&#123;</span>
+	<span class="token property">"PUUID"</span><span class="token operator">:</span> <span class="token string">"批数据的UUID"</span><span class="token punctuation">,</span>
+	<span class="token property">"LASTMODIFYRECORDTIME"</span><span class="token operator">:</span> <span class="token string">"2021-08-20 15:34:37"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PK"</span><span class="token operator">:</span> <span class="token string">"l:99099"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_NC_ORG_CODE"</span><span class="token operator">:</span> <span class="token string">"NC人力组织编码的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_NAME"</span><span class="token operator">:</span> <span class="token string">"人力组织名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_SHORTNAME"</span><span class="token operator">:</span> <span class="token string">"组织简称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PARENT_CODE"</span><span class="token operator">:</span> <span class="token string">"上级编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"PS_ORG_PARENT_NAME"</span><span class="token operator">:</span> <span class="token string">"所属上级组织名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_UNITS_CODE"</span><span class="token operator">:</span> <span class="token string">"单元编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_UNITS_NAME"</span><span class="token operator">:</span> <span class="token string">"业务单元名称的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"BUSINESS_TYPE"</span><span class="token operator">:</span> <span class="token string">"0"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_TYPE"</span><span class="token operator">:</span> <span class="token string">"类"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_RANK"</span><span class="token operator">:</span> <span class="token string">"组"</span><span class="token punctuation">,</span>
+	<span class="token property">"LAST_UPDATE_USER"</span><span class="token operator">:</span> <span class="token string">"更新人的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_ESTABLISH_DATE"</span><span class="token operator">:</span> <span class="token string">"2000-01-01 10:00:00"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_REVOCATION_DATE"</span><span class="token operator">:</span> <span class="token string">"2020-01-01 10:00:00"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_STATUS"</span><span class="token operator">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+	<span class="token property">"LEADER_CODE"</span><span class="token operator">:</span> <span class="token string">"领导工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"LEADER_NAME"</span><span class="token operator">:</span> <span class="token string">"分管领导的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"HRBP_CODE"</span><span class="token operator">:</span> <span class="token string">"HR工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"HRBP_NAME"</span><span class="token operator">:</span> <span class="token string">"HRBP人员姓名的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_HEAD_CODE"</span><span class="token operator">:</span> <span class="token string">"人工号"</span><span class="token punctuation">,</span>
+	<span class="token property">"ORG_HEAD_NAME"</span><span class="token operator">:</span> <span class="token string">"组织负责人姓名的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"TIME_KEEPER_CODE"</span><span class="token operator">:</span> <span class="token string">"考勤员"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTRY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在国家的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTRY_CODE"</span><span class="token operator">:</span> <span class="token string">"国家编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"PROVINCE_NAME"</span><span class="token operator">:</span> <span class="token string">"所在省的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"PROVINCE_CODE"</span><span class="token operator">:</span> <span class="token string">"省编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"CITY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在市的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"CITY_CODE"</span><span class="token operator">:</span> <span class="token string">"市编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTY_NAME"</span><span class="token operator">:</span> <span class="token string">"所在区县的值"</span><span class="token punctuation">,</span>
+	<span class="token property">"COUNTY_CODE"</span><span class="token operator">:</span> <span class="token string">"区县编码"</span><span class="token punctuation">,</span>
+	<span class="token property">"tUUID"</span><span class="token operator">:</span> <span class="token string">"45b547c9-1e7f-4fe5-b4fc-f2b47e9fa2b9"</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -1145,48 +1436,42 @@ eg<span class="token operator">:</span> json
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/19/jolt/">
+                <a href="/2021/08/20/linux-kvm-xu-ni-ji-guan-li/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="JOLT">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Linux kvm 虚拟机管理">
                         
-                        <span class="card-title">JOLT</span>
+                        <span class="card-title">Linux kvm 虚拟机管理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            简单介绍一下Jolt的一些语法，记录一些常用的Jolt Spec
+                            记录在 CentOS 中通过 kvm 创建虚拟机以及对 kvm 虚拟机管理和通过 LVM 挂在磁盘的一些操作
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-19
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-20
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            le.zw
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/NiFi/">
-                        <span class="chip bg-color">NiFi</span>
+                    <a href="/tags/Linux-kvm-lvm/">
+                        <span class="chip bg-color">Linux,kvm,lvm</span>
                     </a>
                     
                 </div>
@@ -1212,7 +1497,7 @@ eg<span class="token operator">:</span> json
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            简单介绍一下Jolt的一些语法，记录一些常用的Jolt Spec
+                            简单介绍Jolt的语法，同时记录一些常用的Jolt Spec(大部分使用场景都是基于NiFi的Jolt组件)
                         
                     </div>
                     <div class="publish-info">
@@ -1221,12 +1506,8 @@ eg<span class="token operator">:</span> json
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            le.zw
                             
                         </span>
                     </div>
@@ -1386,7 +1667,7 @@ eg<span class="token operator">:</span> json
             
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.9k</span>
+                        class="white-color">6.5k</span>
             
             
             
