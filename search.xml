@@ -14,7 +14,11 @@
       
         <tags>
             
-            <tag> Linux,kvm,lvm </tag>
+            <tag> Linux </tag>
+            
+            <tag> kvm </tag>
+            
+            <tag> LVM </tag>
             
         </tags>
       
